@@ -4,7 +4,7 @@
 DATE=$(date +%Y-%m-%d_%H-%M)
 BACKUP_DIR="$HOME/backups"
 
-if [ ! -d "$BACKUP_DIR" ]; then
+if [ ! -d "$BACKUP_DIR"  then
     mkdir -p "$BACKUP_DIR"
 fi
 
